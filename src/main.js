@@ -2,6 +2,8 @@ import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
 import store from './store'
+import MoorUI from './index.js'
+Vue.use(MoorUI)
 
 Vue.config.productionTip = false
 
